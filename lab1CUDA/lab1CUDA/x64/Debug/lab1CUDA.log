@@ -1,2 +1,6 @@
-﻿     Создается библиотека E:\CUDAprog\lab1CUDA\x64\Debug\lab1CUDA.lib и объект E:\CUDAprog\lab1CUDA\x64\Debug\lab1CUDA.exp
+﻿  Compiling CUDA source file lab1.cu...
+  
+  E:\CUDAprog\lab1CUDA\lab1CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o E:\CUDAprog\lab1CUDA\lab1CUDA\x64\Debug\lab1.cu.obj "E:\CUDAprog\lab1CUDA\lab1CUDA\lab1.cu" 
+  lab1.cu
+E:\CUDAprog\lab1CUDA\lab1CUDA\lab1.cu(23): warning C4244: =: преобразование "double" в "__int64", возможна потеря данных
   lab1CUDA.vcxproj -> E:\CUDAprog\lab1CUDA\x64\Debug\lab1CUDA.exe
